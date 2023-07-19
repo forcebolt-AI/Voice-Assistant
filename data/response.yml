@@ -1,0 +1,34 @@
+- intent: greet
+  responses:
+    - text: "Hello! How can I assist you today?"
+
+# - intent: add_data
+#   responses:
+#     - text: "Sure! What information would you like to add to the excel sheet?"
+
+# - intent: ask_info
+#   responses:
+#     - text: "Sure! Let me fetch that information for you."
+
+- intent: ask_time
+  responses:
+    - text: "The current time is [current_time]"
+
+- intent: ask_day
+  responses:
+    - text: "Today is [current_day]"
+
+- intent: get_current_location
+  responses:
+    - text: "Your current location is [current_location]"
+# - intent: remind
+#   responses:
+#     - Okay, I've set a reminder for {task} on {date} at {time}.
+#     - Your reminder for {task} on {date} at {time} has been set.
+
+- intent: goodbye
+  responses:
+    - text: "Goodbye! Have a great day!"
+# - intent: browse
+#   responses:
+#     - response: Sure! Let me find information about {query} for you.

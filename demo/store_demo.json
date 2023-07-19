@@ -1,0 +1,41 @@
+
+{
+    "tag": "check_reminder",
+    "patterns": ["check reminder", "show reminders"],
+    "responses": ["Here are your upcoming reminders: ..."]
+  },
+  {
+    "tag": "check_missed_reminder",
+    "patterns": ["missed reminders", "missed messages"],
+    "responses": ["You have the following missed reminders: ..."]
+  },
+
+  {
+    "tag": "set_reminder",
+    "patterns": [
+      "Remind me to buy groceries on [2023-06-17](date)",
+      "Set a reminder for [tomorrow](date) to [call John](message)",
+      "Can you remind me to book a flight on [July 10th](date)?",
+      "I need a reminder for [next week](date) to attend the meeting",
+      "Remind me to buy [groceries](location) on [2023-06-17](date)",
+      "Set a reminder for [tomorrow](date) to [call](event) [John](location)",
+      "Can you remind me to book a flight on [July 10th](date)?",
+      "I need a reminder for [next week](date) to attend the meeting",
+      "My son will come [tomorrow](date) at [5 pm](time)",
+      "Remind me to buy [groceries](location)",
+      "Set a reminder for [tomorrow](date)",
+      "Remind me to [call](event) John at [5 PM](time)",
+      "Create an [appointment](event) for [Monday](date) at [2:30 PM](time)",
+      "Remind me to [water the plants](event) at [8 AM](time)",
+      "Schedule a [meeting](event) with [Jane](location) at the [office](location)"
+    ],
+    "responses": [
+      "Sure, I'll remind you to [event] at [time].",
+      "No problem! I'll set a reminder for [event] on [date] at [time].",
+      "Consider it done! I'll remind you about [event] at [time].",
+      "Alright! I'll make sure to remind you to [event] on [date] at [time].",
+      "Certainly! You have a [event] scheduled on [date] at [time].",
+      "Got it! I'll remind you to [event] at [time].",
+      "Understood! I'll set a reminder for [event] on [date] at [time]."
+    ]
+  },  

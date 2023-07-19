@@ -1,0 +1,231 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      
+        {
+          "tag": "ask_time",
+          "patterns": [
+            "What is the time?",
+            "tell me the time?",
+            "What time is it now?",
+            "time"
+          ],
+          "responses": [
+            "The current time is [current_time]"
+          ]
+        },
+        {
+          "tag": "ask_day",
+          "patterns": [
+            "What day is today?",
+            "Which day is it?",
+            "Tell me the current day",
+            "today",
+            "day"
+          ],
+          "responses": [
+            "Today is [current_day]"
+          ]
+        },
+        {
+          "tag": "get_current_location",
+          "patterns": [
+            "What is the current location",
+            "my location",
+            "loc"
+          ],
+          "responses": [
+            "Your current location is [current_location]"
+          ]
+        },
+        {
+          "tag": "browse",
+          "patterns": [
+            "Search for",
+            "Look up"
+            
+          ],
+          "responses": [
+            "Sure! Let me find information about {query} for you."
+          ]
+        }, 
+        {
+          "tag": "wiki",
+          "patterns":[
+            "find some info about",
+            "find some information about",
+            "find some"
+          ],
+          "responses":[
+            "Sure! Let me find information about {query} for you."
+          ]
+        },
+        {
+          "tag": "set_reminder",
+          "patterns": [
+            "Remind me to",
+            "Set a reminder",
+            "Can you remind me to",
+            "I need a reminder for"
+
+          ],
+          "responses": [
+            "Are you sure you want to store this reminder?."
+          ]
+        },
+
+        {
+          "tag": "check_reminder",
+          "patterns": ["check reminder", "show reminders"],
+          "responses": ["Here are your upcoming reminders: ..."]
+        },
+        {
+          "tag": "check_missed_reminder",
+          "patterns": ["missed reminders", "missed messages"],
+          "responses": ["You have the following missed reminders: ..."]
+        },
+        {
+          "tag": "greet",
+          "patterns": [],
+          "responses": [
+            "Hello! How can I assist you today?"
+          ]
+        },
+        {
+          "tag": "goodbye",
+          "patterns": [],
+          "responses": [
+            "Goodbye! Have a great day!"
+          ]
+        },
+        {
+          "tag": "joke",
+          "patterns": ["Tell me a joke!", "make a joke", "make fun","Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"],
+          "responses": ["Sure"]
+        },
+        {
+          "tag": "noanswer",
+          "patterns": [],
+          "responses": [
+              "Sorry, can't understand you",
+              "Please give me more info",
+              "Not sure I understand"
+          ]
+        },
+        {
+          "tag": "Identity",
+          "patterns": [
+              "Who are you",
+              "what are you"
+          ],
+          "responses": [
+              "I am  your assistant"
+          ]
+      },
+      {
+        "tag": "whatsup",
+        "patterns": [
+            "Whats up",
+            "Wazzup",
+            "How are you",
+            "sup","How you doing"
+        ],
+        "responses": [
+            "All good..What about you?"
+        ]
+    },
+    {
+        "tag": "haha",
+        "patterns": [
+            "haha",
+            "lol",
+            "rofl",
+            "lmao",
+            "thats funny"
+        ],
+        "responses": [
+            "Glad I could make you laugh !"
+        ]
+    },
+    {
+        "tag": "programmer",
+        "patterns": [
+            "Who made you",
+            "who designed you",
+            "who programmed you"
+        ],
+        "responses": [
+            "I was made by ......"
+        ]
+    },
+    {
+        "tag": "insult",
+        "patterns": [
+            
+            "you are dumb",
+            
+            "shut up",
+            "idiot"
+        ],
+        "responses": [
+            "Well that hurts :("
+        ]
+    },
+    {
+        "tag": "activity",
+        "patterns": [
+            "what are you doing",
+            "what are you upto"
+        ],
+        "responses": [
+            "Talking to you, of course!"
+        ]
+    },
+    {
+        "tag": "exclaim",
+        "patterns": [
+            "Awesome",
+            "Great",
+            "I know",
+            "ok",
+            "yeah"
+        ],
+        "responses": [
+            "Yeah!"
+        ]
+    }
+      ]
+  }
+  

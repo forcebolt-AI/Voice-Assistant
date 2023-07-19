@@ -1,0 +1,102 @@
+
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: goodbye
+  examples: |
+    - bye
+    - cu
+  
+# - intent: add_data
+#   examples: |
+#     - i want to add some data to the excel sheet
+#     - i want to add the user data to the excel sheet
+#     - add user data
+#     - ask me some questions to add the user data
+#     - what information is required to add the data to the excel sheet
+
+# - intent: ask_info
+#   examples: |
+#     - list out the [email]{"entity":"column","value":"email"} of the user who's occupation is [trainer]{"entity":"occup","value":"trainer"}
+#     - list out the [name]{"entity":"column","value":"name"} of the user who's occupation is [doctor]{"entity":"occup","value":"doctor"}
+#     - tell me the [mobile number]{"entity":"column","value":"number"} of the user whose occupation is [software developer]{"entity":"occup","value":"software developer"}
+
+- intent: ask_time
+  examples: |
+    - What is the time?
+    - Can you tell me the time?
+    - What time is it now?
+    - time
+
+- intent: ask_day
+  examples: |
+    - What day is today?
+    - Which day is it?
+    - Tell me the current day
+    - today
+    - day
+
+- intent: get_current_location
+  examples: |
+    - What is the current location
+    - my location
+    - loc
+
+- intent: set_reminder
+  examples: |
+    - Remind me to buy groceries on [2023-06-17](date)
+    - Set a reminder for [tomorrow](date) to call John
+    - Can you remind me to book a flight on [July 10th](date)?
+    - I need a reminder for [next week](date) to attend the meeting
+
+- intent: set_reminder
+  examples: |
+    - Remind me to buy [groceries](location) on [2023-06-17](date)
+    - Set a reminder for [tomorrow](date) to [call](event) John
+    - Can you remind me to book a flight on [July 10th](date)?
+    - I need a reminder for [next week](date) to attend the meeting
+    - my son will come [tomorrow](date) at [5 pm](time)
+    - Remind me to buy [groceries](location)
+    - Set a reminder for [tomorrow](date)
+    - Remind me to [call](event) John at 5 PM
+    - Create an [appointment](event) for [Monday](date) at [2:30 PM](time)
+    - Remind me to [water the plants](event) at [8 AM](date)
+    - Schedule a meeting with Jane at the [office](location)
+
+# - intent: add_data
+#   examples: |
+#     - i want to add some data to the excel sheet
+#     - i want to add the user data to the excel sheet
+#     - add user data
+    
+- intent: browse
+  examples: |
+    - Search for {query}
+    - Look up {query}
+    - Find information about {query}   
+    - ask me some questions to add the user data
+    - what information with different entities: date (2)
+
+- intent: remind
+  examples:
+    - Remind me {task} at {time} tomorrow
+    - I need to {task} on {date} at {time}
+    - Can you set a reminder for {task} on {date} at {time}?
+    
+- intent: check_reminder
+  examples:
+    - check reminder
+    - i need to check reminders
+    - open reminders    
